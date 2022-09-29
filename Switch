@@ -1,0 +1,45 @@
+using System;
+class HelloWorld {
+  static void Main() {
+    //Yadira García Coca T5//
+    Console.WriteLine ("=========================================");
+    Console.WriteLine ("\t \t Materias");
+    Console.WriteLine ("=========================================");
+    Console.WriteLine ("1) Cálculo diferencial");
+    Console.WriteLine ("2) Introducción a las TIC's");
+    Console.WriteLine ("3) Fundamentos de investigación");
+    Console.WriteLine ("4) Matemáticas discretas");
+    Console.WriteLine ("5) Taller de ética");
+    Console.WriteLine ("6) Fundamentos de programación");
+    Console.WriteLine ("7) Salir");
+    int opcion = Convert.ToInt32(Console.ReadLine());
+    int option = opcion;
+    switch (option)
+    {
+        case 1:
+            Console.WriteLine ("Escogiste Cálculo diferencial");
+            break;
+        case 2:
+            Console.WriteLine ("Escogiste Introducción a las TIC's");
+            break;
+        case 3:
+            Console.WriteLine ("Escogiste Fundamentos de investigación");
+            break;
+        case 4:
+            Console.WriteLine ("Escogiste Matemáticas discretas");
+            break;
+        case 5:
+            Console.WriteLine ("Escogiste Taller de ética");
+            break;
+        case 6:
+            Console.WriteLine ("Escogiste Fundamentos de programación");
+            break;
+        case 7:
+            Console.WriteLine ("Escogiste salir");
+            break;
+        default:
+            Console.WriteLine ("Error");
+            break;
+    }
+  }
+}
