@@ -1,0 +1,13 @@
+using System;
+class HelloWorld {
+  static void Main() {
+    //Yadira García Coca T5//
+    string texto = "Estoy haciendo los ejercicios opcionales del curso C# de Master Devs con el profesor Anartz Mugika";
+    Console.WriteLine (texto.StartsWith ("Master Devs"));
+    Console.WriteLine (texto.StartsWith ("Estoy haciendo los ejercicios opcionales"));
+    Console.WriteLine (texto.Equals ("Estoy haciendo los ejercicios opcionales"));
+    Console.WriteLine (texto.EndsWith ("Mugika"));
+    Console.WriteLine (texto.EndsWith ("AnartzMugika"));
+    Console.WriteLine (texto.EndsWith ("Anartz Mugika"));
+  }
+}
